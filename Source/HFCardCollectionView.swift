@@ -10,7 +10,7 @@ import UIKit
 
 open class HFCardCollectionView: UICollectionView {
 
-    override func insertItems(at indexPaths: [IndexPath]) {
+    override open func insertItems(at indexPaths: [IndexPath]) {
         if let collectionViewLayout = self.collectionViewLayout as? HFCardCollectionViewLayout {
             collectionViewLayout.willInsert(indexPaths: indexPaths)
         }
