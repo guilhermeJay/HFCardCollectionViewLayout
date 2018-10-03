@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		072CA10A611A32FF1BD5A97A921B24D9 /* HFCardCollectionViewLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC687B01081814BEFEA88991197B0BC /* HFCardCollectionViewLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3CE3C81FFEFE5F52C3CC15FB5684F101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		790F98919A98AB3E2AE7D5B3FD41A905 /* HFCardCollectionViewLayoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16A63496E99558B4CA6B9D180806AB9 /* HFCardCollectionViewLayoutDelegate.swift */; };
-		7A6E27CC77BF07F42DB5DA9DF2990BA6 /* HFCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41BF607B2DDA5A8DD7AE50E6E83165C /* HFCardCollectionViewCell.swift */; };
-		7F63908EBEA5EE8B1B984B1B5CEB46E1 /* Pods-HFCardCollectionViewLayoutExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 046CED6827F8F476ACC86DD5468CF257 /* Pods-HFCardCollectionViewLayoutExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EFA7FE72F4E97A43C553E2BC4C123B4 /* HFCardCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E00731B0E31D62A8489277EFEEB67 /* HFCardCollectionViewLayout.swift */; };
-		A5E3B8108717879F1E175A7882970651 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		B1BF26FC1E90FD810077D75E /* HFCardCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BF26FB1E90FD810077D75E /* HFCardCollectionView.swift */; };
-		CAB4E8075BB566BEB9DEFC2BB0AE1A44 /* HFCardCollectionViewLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B42049707F2D0F6158127900CD948320 /* HFCardCollectionViewLayout-dummy.m */; };
-		F493F895289894F832FE0C88F27A0B15 /* Pods-HFCardCollectionViewLayoutExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAF622BE70472DDFBC8E2489D38DD90 /* Pods-HFCardCollectionViewLayoutExample-dummy.m */; };
+		072CA10A611A32FF1BD5A97A921B24D9 /* HFCardCollectionViewLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64060C38C020FB7173FC3625086AC9AB /* HFCardCollectionViewLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11975CC83200BFDBD75BB09876CEA546 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3900E3D82E47958E0887A9DE4F7BE00C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4E72A214A8DFC525A964C858C344D3CE /* HFCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA834AC252F4E84FA3DF055804D0906D /* HFCardCollectionViewCell.swift */; };
+		50E8E50BDCDAF9829740502FC0D9B5AA /* HFCardCollectionViewLayoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F732424B04A2AACCED46A482B0ECF4 /* HFCardCollectionViewLayoutDelegate.swift */; };
+		7F63908EBEA5EE8B1B984B1B5CEB46E1 /* Pods-HFCardCollectionViewLayoutExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6EC16C63576069C92CAC08522A859D /* Pods-HFCardCollectionViewLayoutExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A5D859DB6F53898CE887372FD68B97D /* HFCardCollectionViewLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FA7D6E76FBA9FFDEA39704740A8169 /* HFCardCollectionViewLayout-dummy.m */; };
+		B47B657715844C15FAEF72548024EB3E /* HFCardCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE0A544E9ABB2A253424E907B64A65C /* HFCardCollectionView.swift */; };
+		BEA1FD40E84440CA1D5183A9B1BAF0CA /* HFCardCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEFFB2AD9B7F084519346712889AEF1 /* HFCardCollectionViewLayout.swift */; };
+		F493F895289894F832FE0C88F27A0B15 /* Pods-HFCardCollectionViewLayoutExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A98D1DDBFA0A62357F922A91258B6123 /* Pods-HFCardCollectionViewLayoutExample-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,30 +30,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		046CED6827F8F476ACC86DD5468CF257 /* Pods-HFCardCollectionViewLayoutExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HFCardCollectionViewLayoutExample-umbrella.h"; sourceTree = "<group>"; };
-		07D657C1C371416A2A0C47DEFBCAEC04 /* Pods-HFCardCollectionViewLayoutExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFCardCollectionViewLayoutExample-frameworks.sh"; sourceTree = "<group>"; };
-		1C3E00731B0E31D62A8489277EFEEB67 /* HFCardCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HFCardCollectionViewLayout.swift; sourceTree = "<group>"; };
-		2665BF22FA509A9D04D472D47F29BBDB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02E8E171E102300FB06DFA8E2BF83AB6 /* Pods-HFCardCollectionViewLayoutExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HFCardCollectionViewLayoutExample.modulemap"; sourceTree = "<group>"; };
+		0FDDBBE6CC53DA1BCCB7C2568B3A64BA /* HFCardCollectionViewLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFCardCollectionViewLayout.xcconfig; sourceTree = "<group>"; };
 		2871AA1D8F3B5DB60D1FC7F51114E01C /* HFCardCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HFCardCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F0C5D5262152E6CAC8FBF879E31EDCE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B08DABD74D6D5378A5DDCE853030F53 /* HFCardCollectionViewLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFCardCollectionViewLayout.xcconfig; sourceTree = "<group>"; };
-		4AAF622BE70472DDFBC8E2489D38DD90 /* Pods-HFCardCollectionViewLayoutExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFCardCollectionViewLayoutExample-dummy.m"; sourceTree = "<group>"; };
-		54312038EC8BFFC3303E3C93C780CEFD /* HFCardCollectionViewLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFCardCollectionViewLayout-prefix.pch"; sourceTree = "<group>"; };
-		89EB551874C33A437A4B3D8A20764101 /* Pods-HFCardCollectionViewLayoutExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFCardCollectionViewLayoutExample.release.xcconfig"; sourceTree = "<group>"; };
-		919E129C9C6AEDB0ADC7AD498746062A /* HFCardCollectionViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HFCardCollectionViewLayout.modulemap; sourceTree = "<group>"; };
+		2D9A386B304A23E8626CF6E8D01FBBB3 /* Pods-HFCardCollectionViewLayoutExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFCardCollectionViewLayoutExample.release.xcconfig"; sourceTree = "<group>"; };
+		4B9F9C9A68834A3409C1A6891EE16502 /* HFCardCollectionViewLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HFCardCollectionViewLayout.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		56FA7D6E76FBA9FFDEA39704740A8169 /* HFCardCollectionViewLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HFCardCollectionViewLayout-dummy.m"; sourceTree = "<group>"; };
+		63F732424B04A2AACCED46A482B0ECF4 /* HFCardCollectionViewLayoutDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HFCardCollectionViewLayoutDelegate.swift; path = Source/HFCardCollectionViewLayoutDelegate.swift; sourceTree = "<group>"; };
+		64060C38C020FB7173FC3625086AC9AB /* HFCardCollectionViewLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFCardCollectionViewLayout-umbrella.h"; sourceTree = "<group>"; };
+		6571591702531E94ABC337C9E8C95CE8 /* Pods-HFCardCollectionViewLayoutExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFCardCollectionViewLayoutExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6732721D20F354554468B19B1DEF6CFC /* HFCardCollectionViewLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFCardCollectionViewLayout-prefix.pch"; sourceTree = "<group>"; };
+		830292859D4BA001AA4D15E59BD8877D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DF2564780145278826E8F5D9962807 /* HFCardCollectionViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HFCardCollectionViewLayout.modulemap; sourceTree = "<group>"; };
+		8C3BDF70DC49F78FA85D82556E699525 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A16A63496E99558B4CA6B9D180806AB9 /* HFCardCollectionViewLayoutDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HFCardCollectionViewLayoutDelegate.swift; sourceTree = "<group>"; };
-		B1258B00B7C713CD4DB0AD7B276F8F50 /* Pods-HFCardCollectionViewLayoutExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFCardCollectionViewLayoutExample-resources.sh"; sourceTree = "<group>"; };
-		B1BF26FB1E90FD810077D75E /* HFCardCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFCardCollectionView.swift; sourceTree = "<group>"; };
-		B42049707F2D0F6158127900CD948320 /* HFCardCollectionViewLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HFCardCollectionViewLayout-dummy.m"; sourceTree = "<group>"; };
-		B5F36D8799F60A8D7E92CEC996CF92EB /* Pods-HFCardCollectionViewLayoutExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFCardCollectionViewLayoutExample.debug.xcconfig"; sourceTree = "<group>"; };
-		C67398A2C41620ED4BB8215FBA4D8EFE /* Pods-HFCardCollectionViewLayoutExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFCardCollectionViewLayoutExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D41BF607B2DDA5A8DD7AE50E6E83165C /* HFCardCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HFCardCollectionViewCell.swift; sourceTree = "<group>"; };
-		D4DDF1440510E0A645063459BBF342BC /* Pods-HFCardCollectionViewLayoutExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFCardCollectionViewLayoutExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		991185C9D72943672095EF803B33271D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A98D1DDBFA0A62357F922A91258B6123 /* Pods-HFCardCollectionViewLayoutExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFCardCollectionViewLayoutExample-dummy.m"; sourceTree = "<group>"; };
+		AA834AC252F4E84FA3DF055804D0906D /* HFCardCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HFCardCollectionViewCell.swift; path = Source/HFCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		B20E1A940135EA65E8867632B7005252 /* Pods-HFCardCollectionViewLayoutExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFCardCollectionViewLayoutExample.debug.xcconfig"; sourceTree = "<group>"; };
+		B9FE40037BB4176BCCD1875042495B28 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE0A544E9ABB2A253424E907B64A65C /* HFCardCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HFCardCollectionView.swift; path = Source/HFCardCollectionView.swift; sourceTree = "<group>"; };
+		C944E020627B03D4087D5EAFDD3B19B8 /* Pods-HFCardCollectionViewLayoutExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFCardCollectionViewLayoutExample-frameworks.sh"; sourceTree = "<group>"; };
+		DCFB9E4B4763ED067D5B16A732EBE4D5 /* Pods-HFCardCollectionViewLayoutExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFCardCollectionViewLayoutExample-resources.sh"; sourceTree = "<group>"; };
+		DDEFFB2AD9B7F084519346712889AEF1 /* HFCardCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HFCardCollectionViewLayout.swift; path = Source/HFCardCollectionViewLayout.swift; sourceTree = "<group>"; };
+		E7FA12C23CEF42C5C2251914B38B1E96 /* Pods-HFCardCollectionViewLayoutExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFCardCollectionViewLayoutExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF6EC16C63576069C92CAC08522A859D /* Pods-HFCardCollectionViewLayoutExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HFCardCollectionViewLayoutExample-umbrella.h"; sourceTree = "<group>"; };
 		F11EAAD3F1CFFDD7D706ACA402A1C371 /* Pods_HFCardCollectionViewLayoutExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HFCardCollectionViewLayoutExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAC687B01081814BEFEA88991197B0BC /* HFCardCollectionViewLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFCardCollectionViewLayout-umbrella.h"; sourceTree = "<group>"; };
-		FFD465A5DC9B5ACE385F3591BD90A298 /* Pods-HFCardCollectionViewLayoutExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HFCardCollectionViewLayoutExample.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CE3C81FFEFE5F52C3CC15FB5684F101 /* Foundation.framework in Frameworks */,
+				11975CC83200BFDBD75BB09876CEA546 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,99 +72,94 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5E3B8108717879F1E175A7882970651 /* Foundation.framework in Frameworks */,
+				3900E3D82E47958E0887A9DE4F7BE00C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29DCA1BD5EA65F6AABF1763FF25A5265 /* Pods-HFCardCollectionViewLayoutExample */ = {
+		3B5AA1E21FD91F88974DCBD9408AD507 /* HFCardCollectionViewLayout */ = {
 			isa = PBXGroup;
 			children = (
-				2665BF22FA509A9D04D472D47F29BBDB /* Info.plist */,
-				FFD465A5DC9B5ACE385F3591BD90A298 /* Pods-HFCardCollectionViewLayoutExample.modulemap */,
-				C67398A2C41620ED4BB8215FBA4D8EFE /* Pods-HFCardCollectionViewLayoutExample-acknowledgements.markdown */,
-				D4DDF1440510E0A645063459BBF342BC /* Pods-HFCardCollectionViewLayoutExample-acknowledgements.plist */,
-				4AAF622BE70472DDFBC8E2489D38DD90 /* Pods-HFCardCollectionViewLayoutExample-dummy.m */,
-				07D657C1C371416A2A0C47DEFBCAEC04 /* Pods-HFCardCollectionViewLayoutExample-frameworks.sh */,
-				B1258B00B7C713CD4DB0AD7B276F8F50 /* Pods-HFCardCollectionViewLayoutExample-resources.sh */,
-				046CED6827F8F476ACC86DD5468CF257 /* Pods-HFCardCollectionViewLayoutExample-umbrella.h */,
-				B5F36D8799F60A8D7E92CEC996CF92EB /* Pods-HFCardCollectionViewLayoutExample.debug.xcconfig */,
-				89EB551874C33A437A4B3D8A20764101 /* Pods-HFCardCollectionViewLayoutExample.release.xcconfig */,
-			);
-			name = "Pods-HFCardCollectionViewLayoutExample";
-			path = "Target Support Files/Pods-HFCardCollectionViewLayoutExample";
-			sourceTree = "<group>";
-		};
-		384F295B9B7C16999BBC2531611857C1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				919E129C9C6AEDB0ADC7AD498746062A /* HFCardCollectionViewLayout.modulemap */,
-				3B08DABD74D6D5378A5DDCE853030F53 /* HFCardCollectionViewLayout.xcconfig */,
-				B42049707F2D0F6158127900CD948320 /* HFCardCollectionViewLayout-dummy.m */,
-				54312038EC8BFFC3303E3C93C780CEFD /* HFCardCollectionViewLayout-prefix.pch */,
-				FAC687B01081814BEFEA88991197B0BC /* HFCardCollectionViewLayout-umbrella.h */,
-				2F0C5D5262152E6CAC8FBF879E31EDCE /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "HFCardCollectionViewLayoutExample/Pods/Target Support Files/HFCardCollectionViewLayout";
-			sourceTree = "<group>";
-		};
-		3FF3C2B28A3EE6A89FBA891598AF5508 /* HFCardCollectionViewLayout */ = {
-			isa = PBXGroup;
-			children = (
-				90DA7C0E383D971F85355B2CDE812ADE /* Source */,
-				384F295B9B7C16999BBC2531611857C1 /* Support Files */,
+				BAE0A544E9ABB2A253424E907B64A65C /* HFCardCollectionView.swift */,
+				AA834AC252F4E84FA3DF055804D0906D /* HFCardCollectionViewCell.swift */,
+				DDEFFB2AD9B7F084519346712889AEF1 /* HFCardCollectionViewLayout.swift */,
+				63F732424B04A2AACCED46A482B0ECF4 /* HFCardCollectionViewLayoutDelegate.swift */,
+				579ECE1060472115B0EE44E6CE8C04DB /* Pod */,
+				70136EFDC5F1101C7A489EBC2E9323CC /* Support Files */,
 			);
 			name = HFCardCollectionViewLayout;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		4FFE99151BD282E539E9002587D70D0A /* Development Pods */ = {
+		579ECE1060472115B0EE44E6CE8C04DB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3FF3C2B28A3EE6A89FBA891598AF5508 /* HFCardCollectionViewLayout */,
+				4B9F9C9A68834A3409C1A6891EE16502 /* HFCardCollectionViewLayout.podspec */,
+				8C3BDF70DC49F78FA85D82556E699525 /* LICENSE */,
+				991185C9D72943672095EF803B33271D /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		70136EFDC5F1101C7A489EBC2E9323CC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				84DF2564780145278826E8F5D9962807 /* HFCardCollectionViewLayout.modulemap */,
+				0FDDBBE6CC53DA1BCCB7C2568B3A64BA /* HFCardCollectionViewLayout.xcconfig */,
+				56FA7D6E76FBA9FFDEA39704740A8169 /* HFCardCollectionViewLayout-dummy.m */,
+				6732721D20F354554468B19B1DEF6CFC /* HFCardCollectionViewLayout-prefix.pch */,
+				64060C38C020FB7173FC3625086AC9AB /* HFCardCollectionViewLayout-umbrella.h */,
+				B9FE40037BB4176BCCD1875042495B28 /* Info.plist */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "HFCardCollectionViewLayoutExample/Pods/Target Support Files/HFCardCollectionViewLayout";
+			sourceTree = "<group>";
+		};
+		7BB52C9668B87A5CE53A6B898898A17C /* Pods-HFCardCollectionViewLayoutExample */ = {
+			isa = PBXGroup;
+			children = (
+				830292859D4BA001AA4D15E59BD8877D /* Info.plist */,
+				02E8E171E102300FB06DFA8E2BF83AB6 /* Pods-HFCardCollectionViewLayoutExample.modulemap */,
+				6571591702531E94ABC337C9E8C95CE8 /* Pods-HFCardCollectionViewLayoutExample-acknowledgements.markdown */,
+				E7FA12C23CEF42C5C2251914B38B1E96 /* Pods-HFCardCollectionViewLayoutExample-acknowledgements.plist */,
+				A98D1DDBFA0A62357F922A91258B6123 /* Pods-HFCardCollectionViewLayoutExample-dummy.m */,
+				C944E020627B03D4087D5EAFDD3B19B8 /* Pods-HFCardCollectionViewLayoutExample-frameworks.sh */,
+				DCFB9E4B4763ED067D5B16A732EBE4D5 /* Pods-HFCardCollectionViewLayoutExample-resources.sh */,
+				EF6EC16C63576069C92CAC08522A859D /* Pods-HFCardCollectionViewLayoutExample-umbrella.h */,
+				B20E1A940135EA65E8867632B7005252 /* Pods-HFCardCollectionViewLayoutExample.debug.xcconfig */,
+				2D9A386B304A23E8626CF6E8D01FBBB3 /* Pods-HFCardCollectionViewLayoutExample.release.xcconfig */,
+			);
+			name = "Pods-HFCardCollectionViewLayoutExample";
+			path = "Target Support Files/Pods-HFCardCollectionViewLayoutExample";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4FFE99151BD282E539E9002587D70D0A /* Development Pods */,
+				EF512BBA73F196079845A682734BAE0A /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				E11057D728DF1A0CA614502392CB04B8 /* Products */,
 				E1C4EBB06D13D49B160F339B6DDBECA0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		90DA7C0E383D971F85355B2CDE812ADE /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				D41BF607B2DDA5A8DD7AE50E6E83165C /* HFCardCollectionViewCell.swift */,
-				1C3E00731B0E31D62A8489277EFEEB67 /* HFCardCollectionViewLayout.swift */,
-				A16A63496E99558B4CA6B9D180806AB9 /* HFCardCollectionViewLayoutDelegate.swift */,
-				B1BF26FB1E90FD810077D75E /* HFCardCollectionView.swift */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		E11057D728DF1A0CA614502392CB04B8 /* Products */ = {
@@ -176,9 +174,17 @@
 		E1C4EBB06D13D49B160F339B6DDBECA0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				29DCA1BD5EA65F6AABF1763FF25A5265 /* Pods-HFCardCollectionViewLayoutExample */,
+				7BB52C9668B87A5CE53A6B898898A17C /* Pods-HFCardCollectionViewLayoutExample */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EF512BBA73F196079845A682734BAE0A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B5AA1E21FD91F88974DCBD9408AD507 /* HFCardCollectionViewLayout */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,7 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C000741956A955D75290C78B8C062923 /* Build configuration list for PBXNativeTarget "HFCardCollectionViewLayout" */;
 			buildPhases = (
-				6FA203D0BBD713600FC1B3832161E89A /* Sources */,
+				84CB99836A5B8AE4424E1330A7E3294C /* Sources */,
 				D8B57CD8DCCF548A95047D16F3B2EC2D /* Frameworks */,
 				7E51A2A926EE7949AAE4FD1EA1AC105D /* Headers */,
 			);
@@ -244,13 +250,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0920;
-				TargetAttributes = {
-					E1C2F6043B98ABA5417B87102C667275 = {
-						LastSwiftMigration = 0920;
-					};
-				};
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -279,15 +280,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FA203D0BBD713600FC1B3832161E89A /* Sources */ = {
+		84CB99836A5B8AE4424E1330A7E3294C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A6E27CC77BF07F42DB5DA9DF2990BA6 /* HFCardCollectionViewCell.swift in Sources */,
-				CAB4E8075BB566BEB9DEFC2BB0AE1A44 /* HFCardCollectionViewLayout-dummy.m in Sources */,
-				8EFA7FE72F4E97A43C553E2BC4C123B4 /* HFCardCollectionViewLayout.swift in Sources */,
-				790F98919A98AB3E2AE7D5B3FD41A905 /* HFCardCollectionViewLayoutDelegate.swift in Sources */,
-				B1BF26FC1E90FD810077D75E /* HFCardCollectionView.swift in Sources */,
+				B47B657715844C15FAEF72548024EB3E /* HFCardCollectionView.swift in Sources */,
+				4E72A214A8DFC525A964C858C344D3CE /* HFCardCollectionViewCell.swift in Sources */,
+				9A5D859DB6F53898CE887372FD68B97D /* HFCardCollectionViewLayout-dummy.m in Sources */,
+				BEA1FD40E84440CA1D5183A9B1BAF0CA /* HFCardCollectionViewLayout.swift in Sources */,
+				50E8E50BDCDAF9829740502FC0D9B5AA /* HFCardCollectionViewLayoutDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,37 +304,77 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+		17DC31871E65EA0CD43A11D12B3FA95F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FDDBBE6CC53DA1BCCB7C2568B3A64BA /* HFCardCollectionViewLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HFCardCollectionViewLayout/HFCardCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HFCardCollectionViewLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HFCardCollectionViewLayout/HFCardCollectionViewLayout.modulemap";
+				PRODUCT_MODULE_NAME = HFCardCollectionViewLayout;
+				PRODUCT_NAME = HFCardCollectionViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -342,209 +383,184 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		59039CA94E93F462878EA27D8A88C6AE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89EB551874C33A437A4B3D8A20764101 /* Pods-HFCardCollectionViewLayoutExample.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HFCardCollectionViewLayoutExample/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HFCardCollectionViewLayoutExample/Pods-HFCardCollectionViewLayoutExample.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HFCardCollectionViewLayoutExample;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7161B9D607CCBE396C693489B0AEB112 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B08DABD74D6D5378A5DDCE853030F53 /* HFCardCollectionViewLayout.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HFCardCollectionViewLayout/HFCardCollectionViewLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HFCardCollectionViewLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HFCardCollectionViewLayout/HFCardCollectionViewLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = HFCardCollectionViewLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		92B027B0926C28AD73F595226EFBDF0B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B08DABD74D6D5378A5DDCE853030F53 /* HFCardCollectionViewLayout.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HFCardCollectionViewLayout/HFCardCollectionViewLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HFCardCollectionViewLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HFCardCollectionViewLayout/HFCardCollectionViewLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = HFCardCollectionViewLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CAED8D664B647776A9C45FD40CED9B7F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5F36D8799F60A8D7E92CEC996CF92EB /* Pods-HFCardCollectionViewLayoutExample.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HFCardCollectionViewLayoutExample/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HFCardCollectionViewLayoutExample/Pods-HFCardCollectionViewLayoutExample.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HFCardCollectionViewLayoutExample;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		666984389FF123A874F9195DDADBE5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D9A386B304A23E8626CF6E8D01FBBB3 /* Pods-HFCardCollectionViewLayoutExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HFCardCollectionViewLayoutExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HFCardCollectionViewLayoutExample/Pods-HFCardCollectionViewLayoutExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6CAA3677A6FA5EF54A7508AD7E869067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FDDBBE6CC53DA1BCCB7C2568B3A64BA /* HFCardCollectionViewLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HFCardCollectionViewLayout/HFCardCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HFCardCollectionViewLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HFCardCollectionViewLayout/HFCardCollectionViewLayout.modulemap";
+				PRODUCT_MODULE_NAME = HFCardCollectionViewLayout;
+				PRODUCT_NAME = HFCardCollectionViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7CE242402386A8DC9FADD8751B2E25C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B20E1A940135EA65E8867632B7005252 /* Pods-HFCardCollectionViewLayoutExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HFCardCollectionViewLayoutExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HFCardCollectionViewLayoutExample/Pods-HFCardCollectionViewLayoutExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -552,8 +568,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
-				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -561,8 +577,8 @@
 		7B1C1515171E534D7DD08A568F6263CE /* Build configuration list for PBXNativeTarget "Pods-HFCardCollectionViewLayoutExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAED8D664B647776A9C45FD40CED9B7F /* Debug */,
-				59039CA94E93F462878EA27D8A88C6AE /* Release */,
+				7CE242402386A8DC9FADD8751B2E25C5 /* Debug */,
+				666984389FF123A874F9195DDADBE5D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -570,8 +586,8 @@
 		C000741956A955D75290C78B8C062923 /* Build configuration list for PBXNativeTarget "HFCardCollectionViewLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				92B027B0926C28AD73F595226EFBDF0B /* Debug */,
-				7161B9D607CCBE396C693489B0AEB112 /* Release */,
+				17DC31871E65EA0CD43A11D12B3FA95F /* Debug */,
+				6CAA3677A6FA5EF54A7508AD7E869067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

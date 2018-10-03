@@ -16,9 +16,6 @@ open class HFCardCollectionView: UICollectionView {
         }
         super.insertItems(at: indexPaths)
     }
-<<<<<<< HEAD
-
-=======
     
     override open func deleteItems(at indexPaths: [IndexPath]) {
         if let collectionViewLayout = self.collectionViewLayout as? HFCardCollectionViewLayout {
@@ -57,6 +54,4 @@ open class HFCardCollectionView: UICollectionView {
             super.setContentOffset(contentOffset, animated: animated)
         }
     }
-    
->>>>>>> hfrahmann/master
 }
