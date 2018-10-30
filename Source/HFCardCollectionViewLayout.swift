@@ -816,7 +816,8 @@ open class HFCardCollectionViewLayout: UICollectionViewLayout, UIGestureRecogniz
         if(self.collectionViewItemCount == 1) {
             attribute.frame = CGRect.init(x: 0, y: self.contentOffsetTop + self.spaceAtTopForBackgroundView + 0.01 , width: self.cardCollectionCellSize.width, height: self.cardCollectionCellSize.height)
         } else {
-            attribute.frame = CGRect.init(x: 0, y: self.contentOffsetTop + 0.01 , width: self.cardCollectionCellSize.width, height: self.cardCollectionCellSize.height)
+            let y = self.contentOffsetTop == 0 ? self.spaceAtTopForBackgroundView : self.contentOffsetTop + 0.01
+            attribute.frame = CGRect.init(x: 0, y: y, width: self.cardCollectionCellSize.width, height: self.cardCollectionCellSize.height)
         }
     }
     
