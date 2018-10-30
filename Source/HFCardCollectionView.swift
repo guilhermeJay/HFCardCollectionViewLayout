@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HFCardCollectionView: UICollectionView {
+open class HFCardCollectionView: UICollectionView {
 
     override open func insertItems(at indexPaths: [IndexPath]) {
         if let collectionViewLayout = self.collectionViewLayout as? HFCardCollectionViewLayout {
@@ -54,5 +54,4 @@ class HFCardCollectionView: UICollectionView {
             super.setContentOffset(contentOffset, animated: animated)
         }
     }
-    
 }
